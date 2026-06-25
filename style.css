@@ -1,0 +1,55 @@
+body {
+    margin: 40px;
+    font-size: 16px;
+}
+
+h1 {
+    font-weight: normal; 
+}
+
+h3 {
+    font-style: italic; 
+    font-weight: normal;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 6px 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Ячейка с названием дня недели - буквы идут одна под другой (разбиты через <br> в html) */
+.day-cell {
+    width: 20px;
+}
+
+a {
+    color: #1155CC;
+}
+
+.footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Подсветка предмета, на который перешли по ссылке из расписания */
+:target {
+    background-color: #fff6a3;
+}
+
+/* Линия, разделяющая курсы лекций по разным предметам */
+.subject-divider {
+    margin: 30px 0;
+    border: none;
+    border-top: 1px solid black;
+}
